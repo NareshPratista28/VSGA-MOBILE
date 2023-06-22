@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="163dp"
+        android:layout_height="181dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="50"
+        android:layout_marginTop="50"
+        android:layout_marginEnd="50"
+        android:layout_marginBottom="50"
+        android:gravity="center"
+        android:text="By continuing, you agree to BeWear’s Terms of Services and
+acknowledge you’ve read our Privacy Policy"
+        android:textSize="10dp" />
+
+</RelativeLayout>
